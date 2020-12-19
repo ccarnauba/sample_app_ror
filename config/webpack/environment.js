@@ -1,3 +1,6 @@
-const { environment } = require('@rails/webpacker')
-
-module.exports = environment
+require("@rails/ujs").start()
+require("turbolink").start()
+require("@rails/activestorage").start()
+require("channels")
+require("jquery")
+import "bootstrap"
